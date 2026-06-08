@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://example.com
+https://highview.zappy5.app
 HIGH VIEW מתמחה בצילום אווירי לפרויקטי בנייה ונדל&quot;ן. תיעוד מקצועי מהאוויר, מעקב בנייה מרחפן והפקות וידאו פרימיום לקבלנים ויזמים. גלו את הפרויקט שלכם מזווית חדשה.
 
 ### שירותים
-https://example.com/services
+https://highview.zappy5.app/services
 ממעקב בנייה שוטף ועד צילום הריסות מבנים — HIGH VIEW מציעה מגוון שלם של שירותי צילום מרחפן לקבלנים ויזמי נדל&quot;ן. תיעוד, שיווק והדמיות מהאוויר במקום אחד.
 
 ### תיק עבודות
-https://example.com/portfolio
+https://highview.zappy5.app/portfolio
 צפו בתיק העבודות של HIGH VIEW — עשרות פרויקטי בנייה ונדל&quot;ן מתועדים מהאוויר. צילום אווירי לפרויקטי בנייה, הדמיות, פנורמות ועוד. ההוכחה הטובה ביותר לאיכות שלנו.
 
 ### צור קשר
-https://example.com/contact
+https://highview.zappy5.app/contact
 רוצים תיעוד אתרי בנייה מהאוויר שמרשים ומוכר? צרו קשר עם HIGH VIEW עוד היום לקבלת הצעת מחיר מותאמת אישית לצילום מרחפן מקצועי לפרויקט הבנייה או הנדל&quot;ן שלכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://highview.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://highview.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://highview.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,8 +43,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://highview.zappy5.app/contact
+- Endpoint: https://highview.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -81,6 +81,6 @@ Aerial Photography & Video Production
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://highview.zappy5.app/sitemap.xml
+- Robots: https://highview.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://highview.zappy5.app/llms-full.txt
