@@ -40,7 +40,9 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: sharonanavy@gmail.com
+- Phone: 0509511175
+- Phone (tel): tel:0509511175
 
 ### Contact form
 - URL: https://highview.co.il/contact
