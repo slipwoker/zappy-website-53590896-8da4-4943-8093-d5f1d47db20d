@@ -1619,9 +1619,7 @@ HIGH VIEW מספקים לנו תיעוד מרחפן מדויק ומרשים לא
 
 
 
-
 HighView Drone
-
 
 
 
@@ -1775,8 +1773,7 @@ HighView Drone
 
 
 
-&copy; 2024 HighView Drone. כל הזכויות שמורות.
-
+© 2024 HighView Drone. כל הזכויות שמורות.
 
 
 
