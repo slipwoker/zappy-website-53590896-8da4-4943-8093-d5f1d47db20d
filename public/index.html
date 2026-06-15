@@ -161,26 +161,31 @@
       // Track button clicks (counted as actions)
       if (target.tagName === 'BUTTON' || target.closest('button')) {
         var button = target.tagName === 'BUTTON' ? target : target.closest('button');
-        trackEvent('click', {
+        var clickMeta = {
           element: 'button',
           text: button.textContent.trim().substring(0, 100),
           id: button.id || null,
           class: button.className || null
-        });
+        };
+        
+        trackEvent('click', clickMeta);
       }
       
       // Track link clicks (navigation - not counted as actions)
       else if (target.tagName === 'A' || target.closest('a')) {
         var link = target.tagName === 'A' ? target : target.closest('a');
-        trackEvent('navigation', {
+        var navMeta = {
           element: 'link',
           text: link.textContent.trim().substring(0, 100),
           href: link.href,
           external: link.hostname !== window.location.hostname
-        });
+        };
+        
+        trackEvent('navigation', navMeta);
       }
     }, true);
   }
+  
   
   // Track form submissions
   if (config.trackFormSubmissions) {
@@ -914,7 +919,7 @@
 
 </section>
 
-<section data-band-index="1" class="index-services-section" data-layout-spec="בית-services" dir="rtl" id="index-services-section">
+<section data-band-index="1" class="index-services-section" data-layout-spec="בית-services" dir="rtl" id="index-services-section" style="min-height: 1308.18px !important;">
   <!-- Dot grid decorative pattern -->
   <div class="index-services-dot-pattern" aria-hidden="true"></div>
 
@@ -984,7 +989,7 @@
       <!-- Card 5: Site Documentation -->
       <article class="index-services-card" data-grid-item-index="4">
         <figure class="index-services-card-thumb">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1781161810715-c0ggd7x2n" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="219px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 219px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="index-services-image-5" data-context="Wide aerial drone shot documenting a large construction site with multiple buildings, infrastructure, roads and surrounding area, systematic documentation from above for project records" width="600" height="340" src="/assets/site-index-services-image-5-1781426161927-7th5eu.webp?v=1781426163944" alt="תיעוד אתרי בנייה מהאוויר" data-element-type="image" data-element-id="img-1781161810715-c0ggd7x2n" style="object-position: 50% 50% !important; margin: 0px !important; left: -2.32836% !important; top: -1% !important; width: 104.657% !important; height: 102% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.02" data-zappy-original-width="382.3307189941406" data-zappy-original-height="218.9973907470703" data-zappy-object-position="50% 50%"></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1781161810715-c0ggd7x2n" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="219px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 219px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="index-services-image-5" data-context="Wide aerial drone shot documenting a large construction site with multiple buildings, infrastructure, roads and surrounding area, systematic documentation from above for project records" width="600" height="340" src="/assets/site-index-services-image-5-1781426161927-7th5eu.webp?v=1781426163944" alt="תיעוד אתרי בנייה מהאוויר" data-element-type="image" data-element-id="img-1781161810715-c0ggd7x2n" style="object-position: 50% 50% !important; margin: 0px !important; left: -2.32836% !important; top: -1% !important; width: 104.657% !important; height: 102% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important;" data-zappy-zoom="1.02" data-zappy-original-width="382.3307189941406" data-zappy-original-height="218.9973907470703" data-zappy-object-position="50% 50%"></div>
           <div class="index-services-card-thumb-overlay"></div>
           <span class="index-services-card-tag">תיעוד אתרים</span>
         </figure>
