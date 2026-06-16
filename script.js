@@ -1398,6 +1398,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+/* Added Component Script */
+// Optional: Add any future reveal logic here
+// Currently this section is static and hidden by design
+document.addEventListener('DOMContentLoaded', function() {
+  // Placeholder for future reveal functionality
+  console.log('Hidden section loaded - awaiting content update');
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
