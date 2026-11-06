@@ -8775,6 +8775,189 @@ html body .hv-videos-section .hv-videos-grid { display: grid !important; }
 /* zappy-self-heal */
 html body .hv-fit-section .hv-fit-grid { display: grid !important; }
 
+
+.hv-edit-section, .hv-get-section, .hv-faq-section, .hv-cta-section {
+  background: #111820;
+  color: #F5F7FA;
+  padding: 80px 16px;
+  direction: rtl;
+  text-align: right;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.hv-edit-section .hv-edit-container, .hv-get-section .hv-get-container, .hv-faq-section .hv-faq-container, .hv-cta-section .hv-cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hv-edit-section .hv-edit-box {
+  background: #1A2232;
+  border: 2px solid var(--primary-color, var(--primary, #00D4FF));
+  border-radius: 12px;
+  padding: 40px 32px;
+  box-shadow: 0 0 40px rgba(0, 212, 255, 0.15);
+}
+
+.hv-edit-section .hv-edit-box h2, .hv-get-section h2, .hv-faq-section h2, .hv-cta-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #F5F7FA;
+  margin-bottom: 20px;
+}
+
+.hv-edit-section .hv-edit-box p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #A7B0BA;
+  margin-bottom: 28px;
+}
+
+.hv-edit-section .hv-edit-box .btn-primary, .hv-cta-section .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary-color, var(--primary, #00D4FF));
+  color: var(--background-color, var(--background, var(--bg-light, #14161A)));
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.25);
+}
+
+.hv-get-section .hv-get-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.hv-get-section .hv-get-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #1A2232;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 24px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #E7ECF2;
+}
+
+.hv-get-section .hv-get-list li i {
+  color: var(--primary-color, var(--primary, #00D4FF));
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  width: 28px;
+  text-align: center;
+}
+
+.hv-faq-section .hv-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 900px;
+}
+
+.hv-faq-section .faq-item {
+  background: #1A2232;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hv-faq-section .faq-question {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background: transparent;
+  border: none;
+  color: #F5F7FA;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 20px 22px;
+  cursor: pointer;
+  font-family: inherit;
+  position: relative;
+  padding-left: 48px;
+}
+
+.hv-faq-section .faq-question::after {
+  content: '+';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: var(--primary-color, var(--primary, #00D4FF));
+  font-weight: 400;
+  line-height: 1;
+}
+
+.hv-faq-section .faq-item.active .faq-question::after {
+  content: '–';
+}
+
+.hv-faq-section .faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.hv-faq-section .faq-item.active .faq-answer {
+  max-height: 300px;
+}
+
+.hv-faq-section .faq-answer p {
+  margin: 0;
+  padding: 0 22px 20px;
+  color: #A7B0BA;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.hv-cta-section {
+  text-align: center;
+}
+
+.hv-cta-section .hv-cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hv-cta-section h2 {
+  margin-bottom: 8px;
+}
+
+.hv-cta-section p {
+  color: #A7B0BA;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 640px) {
+.hv-get-section .hv-get-list {
+  grid-template-columns: 1fr;
+}
+
+.hv-edit-section .hv-edit-box h2, .hv-get-section h2, .hv-faq-section h2, .hv-cta-section h2 {
+  font-size: 1.5rem;
+}
+}
+/* zappy-self-heal */
+.hv-get-section .hv-get-list { display: grid !important; }
+.hv-get-section .hv-get-list { grid-template-columns: repeat(2, 1fr) !important; }
+
+/* zappy-self-heal */
+html body .hv-get-section .hv-get-list { display: grid !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
