@@ -19,13 +19,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://highview.co.il/contact</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://highview.co.il/drone-mapping-surveying</loc>
+    <loc>https://highview.co.il/hyperlapse</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -34,12 +28,6 @@
     <loc>https://highview.co.il/modeling-and-measurements</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://highview.co.il/blog</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -64,6 +52,18 @@
     <loc>https://highview.co.il/blog/aerial-video-real-estate-marketing</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highview.co.il/contact</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highview.co.il/drone-mapping-surveying</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>

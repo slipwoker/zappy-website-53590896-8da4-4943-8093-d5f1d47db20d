@@ -1,21 +1,21 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-11-06T17:02:42.566Z
+# Generated: 2026-11-06T17:09:31.679Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
 /services  /services.html  200!
 /portfolio  /portfolio.html  200!
+/hyperlapse  /hyperlapse.html  200!
+/modeling-and-measurements  /modeling-and-measurements.html  200!
+/blog/hyperlapse-construction-tracking  /blog/hyperlapse-construction-tracking.html  200!
+/blog/drone-shoot-preparation-real-estate  /blog/drone-shoot-preparation-real-estate.html  200!
+/blog/monthly-construction-documentation  /blog/monthly-construction-documentation.html  200!
+/blog/aerial-video-real-estate-marketing  /blog/aerial-video-real-estate-marketing.html  200!
 /contact  /contact.html  200!
 /privacy  /privacy.html  200!
 /accessibility  /accessibility.html  200!
 /terms  /terms.html  200!
 /drone-mapping-surveying  /drone-mapping-surveying.html  200!
-/modeling-and-measurements  /modeling-and-measurements.html  200!
-/blog  /blog.html  200!
-/blog/hyperlapse-construction-tracking  /blog/hyperlapse-construction-tracking.html  200!
-/blog/drone-shoot-preparation-real-estate  /blog/drone-shoot-preparation-real-estate.html  200!
-/blog/monthly-construction-documentation  /blog/monthly-construction-documentation.html  200!
-/blog/aerial-video-real-estate-marketing  /blog/aerial-video-real-estate-marketing.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
 /privacy.html  /privacy  301
