@@ -24,6 +24,7 @@ https://highview.co.il/hyperlapse
 
 ### מידול ומדידות
 https://highview.co.il/modeling-and-measurements
+מידול תלת-ממדי פוטוגרמטרי מצילום רחפן: מודל מטוקסטר, אורתופוטו, DSM/DTM, ענן נקודות וחישובי נפחים לפרויקטי בנייה, נדל״ן ותשתיות. דוגמאות חיות: שדה דב ושכונת שרונה בכפר יונה.
 
 ### הייפרלאפס
 https://highview.co.il/blog/hyperlapse-construction-tracking
