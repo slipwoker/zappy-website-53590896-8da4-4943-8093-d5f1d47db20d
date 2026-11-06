@@ -8589,6 +8589,16 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   border: 0 !important;
   pointer-events: none !important;
 }
+
+.hv-live-model-subsection iframe, .hv-sharona-project-section iframe[src^="https://cloud.agisoft.com"] {
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+.hv-live-model-subsection iframe, .hv-sharona-project-section iframe[src^="https://cloud.agisoft.com"] {
+  height: 400px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
