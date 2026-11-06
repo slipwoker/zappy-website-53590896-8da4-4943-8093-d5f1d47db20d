@@ -8569,6 +8569,26 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   min-height: 100% !important;
   transform: translate(-50%, -50%) !important;
 }
+
+.index-hero-section .hero-video-background {
+  overflow: hidden !important;
+}
+
+.index-hero-section .hero-video-background .hero-video-iframe {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  aspect-ratio: 16/9 !important;
+  max-width: none !important;
+  max-height: none !important;
+  border: 0 !important;
+  pointer-events: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
