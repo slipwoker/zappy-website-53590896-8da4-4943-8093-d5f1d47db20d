@@ -8542,6 +8542,11 @@ body.zappy-edit-mode .zappy-editable-video-bg {
     height: 18px;
   }
 }
+
+#index-hero-section .index-hero-scrim {
+  background: none !important;
+  background-image: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
